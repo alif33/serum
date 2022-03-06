@@ -1,7 +1,8 @@
 body, html {
     height: 100%;
     margin: 0;
-    font-family: 'Permanent Marker';font-size: 22px;
+    
+    font-size: 22px;
   }
 
 .bgimg {
@@ -15,18 +16,21 @@ body, html {
   }
   
   .topleft {
+    font-family: 'Permanent Marker' ;
     position: absolute;
     top: 0;
     left: 16px;
   }
   
   .bottomleft {
+    font-family: 'Permanent Marker' ;
     position: absolute;
     bottom: 0;
     left: 16px;
   }
   
   .middle {
+    font-family: 'Permanent Marker' ;
     position: absolute;
     top: 50%;
     left: 50%;

@@ -2,18 +2,18 @@ import * as React from 'react';
 
 const Home = () => {
   return (
-  <div className='d-flex flex-fill align-items-center container'>
-     <div className="bgimg">
+  <div className='d-flex flex-fill align-items-center'>
+     <div className="">
         <div className="topleft">
-          <p>Cyberpunk City</p>
+          <p className='text-black'>Cyberpunk City</p>
         </div>
         <div className="middle">
-          <h1>COMING SOON</h1>
+          <h1 className='text-black'>COMING SOON</h1>
           <hr />
-          <p>29 days left</p>
+          <p className='text-black'>29 days left</p>
         </div>
         <div className="bottomleft">
-          <p>cyberpunkcity.com</p>
+          <p className='text-black'>cyberpunkcity.com</p>
         </div>
       </div>
   </div>
